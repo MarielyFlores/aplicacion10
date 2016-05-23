@@ -7,31 +7,30 @@
 		
 	<!-- versionCode is optional and Android only -->
 	
-	<name> APP10 PIANO</name>
+	<name>APP10Piano</name>
 	
-	<description>
-		Utiliza Plugins de audio con un piano y las 7 notas musicales
-	</description>
 	
+	<description>Utiliza Plugins de audio con un piano y las 7 notas musicales Junio 2016</description>
+	
+	 
 	 <preference name="phonegap-version" value="3.1.0" />
 	 
-	 <preference name="orientation" value="landscape" />
+	 <preference name="orientation" value="landscape"/>
 	 
 	 <author href="https://build.phonegap.com" email="support@phonegap.com">
 		Mariely Flores Flores
 	</author>
-	
+
 <gap:plugin name="org.apache.cordova.device" version="0.2.12"/>
-       <gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
+<gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
 <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
 <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10"/>
 <gap:plugin name="org.apache.cordova.device-motion" version="0.2.10"/>
- <!--Plugin Audio-->
- <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0"/>
-   
-    <!-- Colocar icono app -->
+   <!--Plugin Audio-->
+<gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0"/>
 
+
+<!--Colocar icono app-->
 <icon src="res/android/mdpi.png" />
 </widget>
-  
   
